@@ -1,0 +1,45 @@
+body {
+  background-color: #031d29fb;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+  
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+  
+.input-section, .qr-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: #0a3d62;
+  padding: 50px;
+  border: 2px solid white;
+  height: 250px;
+}
+  
+h1 {
+  text-align: center;
+}
+  
+input, button {
+  width: 300px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+  
+button {
+  background-color:  rgb(20, 60, 64);
+  color: white;
+  cursor: pointer;
+}
+  
+button:hover {
+  background-color: rgb(23, 64, 72);
+}
+  

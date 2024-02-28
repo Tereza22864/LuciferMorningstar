@@ -1,0 +1,81 @@
+.home-page {
+  background-color: #0c402b;
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 50px;
+  text-align: center;
+}
+  
+h1, h2, p {
+  text-align: center;
+}
+
+.highlight {
+  color: yellow;
+}
+  
+.sections {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+  
+.section {
+  width: 200px;
+  text-align: center;
+}
+  
+.section h2 {
+  font-size: 20px;
+}
+  
+.section p {
+  font-size: 16px;
+}
+  
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 50px;
+}
+  
+.image-card {
+  width: 23%;
+  text-align: center;
+}
+  
+.image-card img {
+  height: 200px;
+  width: 250px;
+  box-shadow: 5px 5px 15px rgb(246, 255, 0);
+}
+  
+.tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 100px;
+  width: 330px;
+}
+  
+button {
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px;
+}
+  
+.active {
+  background-color: #65830c;
+  color: white;
+}
+  
+.tab-content p {
+  color: white;
+  text-align: left; 
+  width: auto;
+  height: auto;
+  border: 5px solid rgb(23, 161, 159); 
+  background-color: rgb(14, 59, 51);
+  padding: 20px;
+} 
